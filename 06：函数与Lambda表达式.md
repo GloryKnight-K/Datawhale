@@ -46,7 +46,6 @@ print("按照尾元素大小逆序排列："+str(x))
 
 ```python
 def hanot(n,a,b,c):
-    global i
     if n>0:
         hanot(n-1,a,c,b)
         print('从{}移动到{}'.format(a,c))
